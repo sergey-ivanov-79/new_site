@@ -1,0 +1,43 @@
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #AEAEAE;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #AEAEAE;
+}
+.form-control:-ms-input- { /* IE 10+ */
+  color: #AEAEAE;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color: #AEAEAE;
+}
+.form {
+  &-control {
+    font-family: "Roboto Condensed", sans-serif !important;
+    border-radius: 2px;
+    border: 1px solid #E0E0E0;
+    background: #ffffff;
+    padding: 8px;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    height: 44px;
+    width: 100%;
+    outline: none;
+    position: relative;
+    box-shadow: none !important;
+  }
+  &-textarea {
+    height: 115px;
+    max-height: 115px;
+  }
+}
+.validated {
+  .form-control {
+    border-color: #6dc22e;
+  }
+}
+.no-validated {
+  .form-control {
+    border-color: #a00;
+  }
+}

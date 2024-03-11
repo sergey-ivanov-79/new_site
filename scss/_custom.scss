@@ -1,0 +1,102 @@
+.header {
+  background: rgba(255,255,255, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 1px 8px 0px #ddd;
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-weight: 700;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+}
+.top_block {
+  background-image: url('../images/jpg/bg-home.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-top: 74px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  &_min {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  &_w {
+    background-image: url('../images/jpg/bg-work.jpg');
+  }
+  &_b {
+    background-image: url('../images/jpg/bg-blog.jpg');
+  }
+  &_a {
+    background-image: url('../images/jpg/bg-about.jpg');
+  }
+  &_c {
+    background-image: url('../images/jpg/bg-contact.jpg');
+  }
+}
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+.ul-disc {
+  list-style: disc;
+}
+.bg-gray {
+  background-color: #fcf6f6;
+}
+.blog_box {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #212121 !important;
+  // margin-bottom: 52px;
+  height: 100%;
+  background: #ffffff;
+  &:hover {
+    box-shadow: 0px 1px 10px 0px #ddd;
+  }
+  .blog_box_top {
+    background-image: url('../images/jpg/blog_img_1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+  }
+  .blog_box_info {
+    padding: 15px;
+    flex: 0 0 auto;
+  }
+}
+.wrapper_blog_box_top {
+
+  flex: 1 0 auto;
+}
+.blog_title {
+  font-size: 20px;
+  min-height: 56px;
+  
+}
+.blog_date {
+  font-size: 18px;
+}
+.blog_info {
+  font-size: 16px;
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.info_user {
+  font-size: 28px;
+  i {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: "Merriweather", serif !important;
+  }
+}
+.foto_block {
+  max-width: 250px;
+}

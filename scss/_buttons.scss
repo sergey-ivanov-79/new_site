@@ -1,0 +1,31 @@
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.btn {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: normal;
+  transition: all 0.5s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  border-radius: 6px;
+  background-color: transparent;
+  letter-spacing: 0.35px;
+  border: none;
+  &[disabled],
+  &.disabled {
+    opacity: 0.4;
+    cursor: no-drop;
+  }
+  &-black {
+    background-color: #000000;
+    color: #ffffff !important;
+    &:hover {
+      background-color: #3C4043;
+    }
+  }
+}
