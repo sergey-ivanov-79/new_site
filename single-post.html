@@ -27,13 +27,13 @@
                   <a class="nav-link" href="./work-with-us.html">WORK WITH US</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./commentaries.html">COMMENTARIES</a>
+                  <a class="nav-link active" aria-current="page" href="./commentaries.html">COMMENTARIES</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./about-us.html">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                  <a class="nav-link" href="./contact.html">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -41,35 +41,51 @@
         </nav>
       </header>
       <main class="content">
-        <div class="top_block top_block_min top_block_c">
+        <div class="top_block top_block_min top_block_b">
           <div class="container container_md">
             <div class="text-center">
-              <h1 class="h1 color_white">CONTACT US</h1>
+              <h1 class="h1 color_white">Overview of February 2024</h1>
             </div>
           </div>
         </div>
-        <div class="inner-content pt-5 pb-5">
-          <div class="container">
-            <form action="sendmail.php" method="post" class="row g-3 needs-validation mb-5" novalidate>
-              <div class="col-md-6">
-                <input type="text" name="name" placeholder="Name" class="form-control" required>
+        <div class="inner-content">
+          <div class="bg-gray pt-5 pb-5">
+            <div class="container mb-5">
+              <div class="pt-3 pt-md-5">
+                <p class="text-lg mb-5">
+                  Tech Giants: Companies like Apple Inc. (AAPL), Microsoft Corporation (MSFT), 
+                  and Alphabet Inc. (GOOGL) often attract attention due to their large market 
+                  capitalization and significant influence on market indices. Any news related 
+                  to product launches, earnings reports, or regulatory issues could lead to 
+                  significant price movements in these stocks.
+                </p>
+                <p class="text-lg mb-5">
+                  Electric Vehicle (EV) Companies: With the growing focus on sustainability and 
+                  clean energy, stocks of EV manufacturers such as Tesla, Inc. (TSLA) and traditional 
+                  automakers transitioning to electric vehicles like General Motors Company (GM) 
+                  could experience volatility based on factors like production numbers, sales 
+                  figures, and regulatory developments.
+                </p>
+                <p class="text-lg mb-5">
+                  Biotech and Pharmaceutical Companies: Stocks of companies involved in the 
+                  development and commercialization of innovative drugs and therapies may 
+                  experience fluctuations due to clinical trial results, regulatory approvals, 
+                  or mergers and acquisitions. Biotech firms like Moderna Inc. (MRNA) or 
+                  pharmaceutical giants like Pfizer Inc. (PFE) could be in the spotlight.
+                </p>
+                <p class="text-lg mb-5">
+                  Renewable Energy Stocks: As the world shifts towards renewable energy sources, 
+                  companies operating in the renewable energy sector, such as NextEra Energy, Inc. 
+                  (NEE) or Enphase Energy, Inc. (ENPH), might see significant movements driven by 
+                  factors like government policies, technological advancements, or changes in energy demand.
+                </p>
+                <p class="text-lg">
+                  Cryptocurrency-Related Stocks: With the increasing popularity and adoption of 
+                  cryptocurrencies, stocks of companies involved in cryptocurrency mining, blockchain 
+                  technology, or digital payment solutions like Coinbase Global, Inc. (COIN) could be 
+                  subject to fluctuations based on crypto market trends and regulatory developments.
+                </p>
               </div>
-              <div class="col-md-6">
-                <input type="text" name="email" placeholder="Email" class="form-control" required>
-              </div>
-              <div class="col-md-12">
-                <textarea name="message" placeholder="Message" class="form-control form-textarea" required></textarea>
-              </div>
-              <div class="col-md-12">
-                <div class="text-center">
-                  <input type="submit" class="btn btn-black w-auto" value="Send">
-                </div>
-              </div>
-            </form>
-            <div class="text-center mb-5">
-              <div class="text-lg fw-600 mb-2">Archer Bay Capital</div>
-              <div class="text-lg fw-600 mb-2">Boston  Delray  Sarasota  Columbus</div>
-              <div class="text-lg fw-700">617-453-8789</div>
             </div>
           </div>
           <div class="container">
@@ -87,31 +103,12 @@
               advice or to predict future performance. Past performance does not guarantee future results. 
               Consult your financial professional before making any investment decision.
             </div>
+            <div class="pt-4 pb-4"></div>
           </div>
         </div>
       </main>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-      (() => {
-        'use strict'
-
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
-
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-          form.addEventListener('submit', event => {
-            if (!form.checkValidity()) {
-              event.preventDefault()
-              event.stopPropagation()
-            }
-
-            form.classList.add('was-validated')
-          }, false)
-        })
-      })()
-    </script>
   </body>
 </html>
