@@ -256,20 +256,18 @@ a:hover {
   }
 }
 
-@media (max-width: 991.98px) {
-  .brand_top {
-    display: none !important;
-  }
+.block_right {
+  width: 120px;
 }
 
 .logo_big {
-  height: 140px;
+  height: 180px;
   margin-bottom: 15px;
   transition: all 0.2s;
 }
 
 .content {
-  margin-top: 220px;
+  margin-top: 260px;
 }
 @media (max-width: 991.98px) {
   .content {
